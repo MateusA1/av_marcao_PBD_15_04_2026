@@ -1,8 +1,8 @@
 # av_marcao_15_04_2026
 
-# 📊 Sistema de Gestão Acadêmica
+# Sistema de Gestão Acadêmica
 
-## 📌 Descrição do Projeto
+## Descrição do Projeto
 
 Este projeto foi desenvolvido como parte da avaliação da disciplina de **Programação em Banco de Dados**.
 
@@ -22,7 +22,7 @@ O sistema busca resolver problemas como:
 
 ---
 
-## 🧠 Modelagem Conceitual
+## Modelagem Conceitual
 
 O sistema é composto pelas seguintes entidades:
 
@@ -41,7 +41,7 @@ O sistema é composto pelas seguintes entidades:
 
 ---
 
-## 🗂️ Modelo Relacional
+## Modelo Relacional
 
 ```sql
 CREATE DATABASE escola;
@@ -90,7 +90,7 @@ CREATE TABLE MATRICULA (
 
 ---
 
-## 🔄 Normalização
+## Normalização
 
 O banco foi estruturado seguindo as boas práticas de normalização:
 
@@ -100,7 +100,7 @@ O banco foi estruturado seguindo as boas práticas de normalização:
 
 ---
 
-## 🔍 Consulta SQL
+## Consulta SQL
 
 Exemplo de consulta para listagem de alunos por disciplina:
 
@@ -120,12 +120,10 @@ ORDER BY d.nome, a.nome;
 
 ---
 
-## ⚡ Otimização
+## Otimização
 
-Para melhorar o desempenho do banco de dados, foram aplicadas:
-
-* Uso de **chaves primárias (PK)**
-* Uso de **chaves estrangeiras (FK)**
+* Uso de chaves primárias (PK)
+* Uso de chaves estrangeiras (FK)
 * Criação de índices:
 
 ```sql
@@ -136,7 +134,7 @@ CREATE INDEX idx_professor ON DISCIPLINA(id_professor);
 
 ---
 
-## 📌 Autor
+## Autor
 
 **Nome:** Meteus Antonio Borges da Silva
 **Curso:** Análise e Desenvolvimento de Sistemas
