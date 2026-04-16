@@ -136,7 +136,7 @@ CREATE INDEX idx_professor ON DISCIPLINA(id_professor);
 
 ## Autor
 
-**Nome:** Meteus Antonio Borges da Silva
+**Nome:** Mateus Antonio Borges da Silva
 **Curso:** Análise e Desenvolvimento de Sistemas
 **Período:** 3º
 
